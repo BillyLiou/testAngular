@@ -1,0 +1,9 @@
+button {
+  background-color: cadetblue;
+  box-shadow: 2px 2px 4px lightgray;
+  border-radius: 5px;
+  outline: none;
+  &:active {
+    transform: translate(2px,2px)
+  }
+}
