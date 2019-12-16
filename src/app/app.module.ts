@@ -10,6 +10,9 @@ import { FourthPageComponent } from './fourth-page/fourth-page.component';
 import { MoneyPageComponent } from './fourth-page/money-page/money-page.component';
 import { AnimalPageComponent } from './fourth-page/animal-page/animal-page.component';
 import { HeritedPageComponent } from './herited-page/herited-page.component';
+import { FivePageComponent } from './five-page/five-page.component';
+import { SixPageComponent } from './six-page/six-page.component';
+import { SevenPageComponent } from './seven-page/seven-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HeritedPageComponent } from './herited-page/herited-page.component';
     FourthPageComponent,
     MoneyPageComponent,
     AnimalPageComponent,
-    HeritedPageComponent
+    HeritedPageComponent,
+    FivePageComponent,
+    SixPageComponent,
+    SevenPageComponent
   ],
   imports: [
     BrowserModule,
