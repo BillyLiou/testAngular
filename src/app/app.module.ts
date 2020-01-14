@@ -17,7 +17,10 @@ import { SevenPageComponent } from './seven-page/seven-page.component';
 import { EightPageComponent } from './eight-page/eight-page.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+<<<<<<< HEAD
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+=======
+>>>>>>> 536c9a41b61bbbcce6e4dbf560d57740876328f4
 
 @NgModule({
   declarations: [
@@ -37,8 +40,12 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
+<<<<<<< HEAD
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     HttpClientModule
+=======
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+>>>>>>> 536c9a41b61bbbcce6e4dbf560d57740876328f4
   ],
   providers: [],
   bootstrap: [AppComponent],
