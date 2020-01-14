@@ -13,6 +13,9 @@ import { HeritedPageComponent } from './herited-page/herited-page.component';
 import { FivePageComponent } from './five-page/five-page.component';
 import { SixPageComponent } from './six-page/six-page.component';
 import { SevenPageComponent } from './seven-page/seven-page.component';
+import { EightPageComponent } from './eight-page/eight-page.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -26,11 +29,13 @@ import { SevenPageComponent } from './seven-page/seven-page.component';
     HeritedPageComponent,
     FivePageComponent,
     SixPageComponent,
-    SevenPageComponent
+    SevenPageComponent,
+    EightPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent],
