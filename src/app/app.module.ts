@@ -18,7 +18,6 @@ import { EightPageComponent } from './eight-page/eight-page.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-
 @NgModule({
   declarations: [
     AppComponent,
