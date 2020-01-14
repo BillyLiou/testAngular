@@ -1,11 +1,7 @@
 import { Component, OnInit, Output, Input } from '@angular/core';
 import { Readonly, log, Student, logger } from './decorator-method';
 
-@Student({ course: 'abc' })
-class TestClass {
-  constructor() {
-  }
-}
+
 
 @Component({
   selector: 'app-seven-page',
@@ -15,7 +11,6 @@ class TestClass {
 
 
 export class SevenPageComponent implements OnInit {
-  case1: TestClass = new TestClass();
 
   @Readonly('app-seven-page') title: string;
 
